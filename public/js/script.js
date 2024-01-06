@@ -20,7 +20,7 @@ function toggleMode() {
   // Toggle icon
   themeToggleDarkIcon.classList.toggle('hidden')
   themeToggleLightIcon.classList.toggle('hidden')
-
+  
   // If is set in localstorage
   if (localStorage.getItem('color-theme')) {
     // If light, make dark and save in localstorage
